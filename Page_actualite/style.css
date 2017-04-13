@@ -1,0 +1,30 @@
+h1
+{
+  text-align: center;
+}
+img
+{
+  width: 350px;
+  height: 350px;
+}
+.container
+{
+  border: lightgrey solid 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+.item
+{
+  width: 220px;
+  height: auto;
+  background-color: lightblue;
+  display: flex;
+  margin: auto;
+}
+h2, p
+{
+  margin: auto;
+}
