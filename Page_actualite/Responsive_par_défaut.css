@@ -1,24 +1,5 @@
 /* Très petits écrans (smartphones, moins de 768px) */
-body
-{
 
-}
-h1
-{
-
-}
-.format
-{
-
-}
-.article
-{
-
-}
-.contenu
-{
-
-}
 
 /* Petits écrans (tablettes, 768px et plus) */
 @media (min-width: 768px)
