@@ -7,22 +7,31 @@ img
   width: 350px;
   height: 350px;
 }
+.form
+{
+  display: flex;
+  flex-direction: row;
+}
 .container
 {
   border: lightgrey solid 2px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
   justify-content: space-around;
+  width: 500px;
+  height: auto;
   margin: auto;
-}
+  }
 .item
 {
   width: 220px;
   height: auto;
   background-color: lightblue;
+  flex-direction: row;
   display: flex;
   margin: auto;
+  flex: 1;
 }
 h2, p
 {
