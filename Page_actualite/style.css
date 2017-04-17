@@ -1,39 +1,45 @@
-/* Très petits écrans (smartphones, moins de 768px) */
+@font-face
+{
+  font-family: "AvenirLTStd-Heavy";
+  src: url("police/AvenirLTStd-Heavy.otf");
+}
 body
 {
-
+  font-family: "AvenirLTStd-Heavy",sans-serif;
+  text-align: center;
+  background-color: lightgrey;
 }
-h1
+a
 {
-
+  text-decoration: none;
+  color: black;
 }
 .format
 {
-
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-content:
+  border: red 2px solid;
 }
 .article
 {
-
+  width: 40em;
+  height: auto;
+  flex-direction: column;
+  border: blue 2px solid;
 }
 .contenu
 {
-
+  display: flex;
+  justify-content: center;
+  border: black 2px solid;
 }
-
-/* Petits écrans (tablettes, 768px et plus) */
-@media (min-width: 768px)
+img
 {
-  ...
- }
-
-/* Ecrans moyens (desktops, 992px et plus) */
-@media (min-width: 992px)
-{
-   ...
-}
-
-/* Grands écrans (large desktops, 1200px et plus) */
-@media (min-width: 1200px)
-{
-   ...
+  height: 21em;
+  height: 21em;
 }
